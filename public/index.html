@@ -44,18 +44,18 @@
     <script id="rates-template" type="text/x-handlebars-template">
       <h1 class="ui header">Currency Rates</h1>
       <hr>
-      <div class="ui loading basic segment">
+      <div class="ui loading basic segment clearing">
         <div class="ui horizontal list">
           <div class="item">
-            <i class="calendar alternate outline icon"></i>
-            <div class="content">
+            <i class="calendar alternate outline large orange icon"></i>
+            <div class="content right floated">
               <div class="ui sub header">Date</div>
               <span>{{date}}</span>
             </div>
           </div>
           <div class="item">
-            <i class="money bill alternate outline icon"></i>
-            <div class="content">
+            <i class="money bill alternate outline large orange icon"></i>
+            <div class="content right floated">
               <div class="ui sub header">Base</div>
               <span>{{base}}</span>
             </div>
@@ -110,7 +110,7 @@
               <input type="number" name="amount" id="amount" placeholder="Enter amount">
             </div>
           </div>
-          <div class="ui primary submit button">Convert</div>
+          <div class="ui positive submit button">Convert</div>
           <div class="ui error message"></div>
         </form>
         <br>
@@ -135,7 +135,7 @@
             </div>
           </div>
         </div>
-        <div class="ui primary submit button">Fetch Rates</div>
+        <div class="ui positive submit button">Fetch Rates</div>
         <div class="ui error message"></div>
       </form>
 
