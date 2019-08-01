@@ -48,6 +48,8 @@ PercyScript.run(async (page, percySnapshot) => {
          contentType: "application/json; charset=utf-8",
          body: JSON.stringify(mockConvertRate) // return convert rate data
        });
+    } else {
+      request.continue();
     }
   });
 
