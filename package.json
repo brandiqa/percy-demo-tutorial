@@ -5,8 +5,6 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "cypress open",
-    "percy:cypress": "percy exec -- cypress run",
     "percy": "percy exec  -- node snapshots.js"
   },
   "repository": {
