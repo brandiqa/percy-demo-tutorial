@@ -1,5 +1,7 @@
 # PERCY SCRIPT - VISUAL TESTING DEMO
 
+[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/Brandiqa/Percy-Demo-Tutorial)
+
 ## Introduction
 
 This is a demo project that introduces beginners on how to perform visual testing using [Percy](https://percy.io). The tutorial for this project is on [Sitepoint.com](https://www.sitepoint.com/blog/)
