@@ -32,7 +32,6 @@
     "vanilla-router": "^1.2.7"
   },
   "devDependencies": {
-    "@percy/cypress": "^1.0.9",
-    "cypress": "^3.4.0"
+    "@percy/script": "^1.0.0"
   }
 }
