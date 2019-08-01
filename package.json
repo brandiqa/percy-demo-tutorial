@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "test": "cypress open",
-    "percy": "percy exec -- cypress run"
+    "percy:cypress": "percy exec -- cypress run",
+    "percy": "percy exec  -- node snapshots.js"
   },
   "repository": {
     "type": "git",
